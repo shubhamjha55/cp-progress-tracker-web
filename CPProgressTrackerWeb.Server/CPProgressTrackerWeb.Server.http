@@ -1,6 +1,9 @@
 @CPProgressTrackerWeb.Server_HostAddress = http://localhost:5229
 
-GET {{CPProgressTrackerWeb.Server_HostAddress}}/weatherforecast/
+GET {{CPProgressTrackerWeb.Server_HostAddress}}/
+Accept: application/json
+
+POST {{CPProgressTrackerWeb.Server_HostAddress}}/
 Accept: application/json
 
 ###
